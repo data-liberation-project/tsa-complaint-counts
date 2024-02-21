@@ -11,16 +11,6 @@ This repository, created by the [Data Liberation Project](https://www.data-liber
 - Converts that data into CSV files
 - Standardizes the results
 
-## Scripts
-
-The repository's pipeline consists of the following scripts:
-
-- [scripts/00-scrape.py](scripts/00-scrape.py): Scrapes the TSA FOIA electronic reading room for all relevant PDFs and downloads them to the [pdfs/](pdfs/) directory.
-- [scripts/01-parse.py](scripts/01-parse.py): Parses each of the PDFs, extracting the structured data and saving it to the [output/01-parsed/](output/01-parsed/) directory. For each PDF, the output includes two CSV files: one containing one row per fiscal year total (as stated literally in the PDF), and one containing one row per monthly total.
-- [scripts/02-combine.py](scripts/02-combine.py): Combines the monthly-total CSVs into a single, deduplicated CSV (since each report covers multiple years, and the coverage periods overlap across reports), saved to [output/02-combined/](output/02-combined/). Also saves three additional subsets, each focused on a single level of granularity (airport, airport-category, and airport-category-subcategory).
-    - In instances where the same month's data is available in multiple PDF reports, we use the counts from the most recent report. A given entry's count rarely changes over time; when it does, it's typically by small amounts.
-- [scripts/03-standardize.py](scripts/03-standardize.py): Standardizes the category and subcategory labels, since the reports' PDF layouts often trim the full description, and saves the results to [output/03-standardized/](output/03-standardized/). The script also trims redundant category prefixes from subcategory descriptions. See the [Data guidance](#data-guidance) section below for interpreting the results.
-
 ## Data guidance
 
 The Data Liberation Project recommends using the files in [output/03-standardized/](output/03-standardized/), which contain monthly complaint counts for January 2015 – October 2023 and are divided into three levels of granularity: 
@@ -112,6 +102,17 @@ The values of `clean_cat` and `clean_cat_status` are determined for each record 
 
 Similarly, the values of `clean_cat`, `clean_cat_status`, `clean_subcat`, and `clean_subcat_status` are determined for each record in `output/03-standardized/complaints-by-subcategory.csv` using the lookup table [`lookups/lkp_cleaner_subcategories.csv`](lookups/lkp_cleaner_subcategories.csv) based on matching values of `Category` and `Subcategory`.
 
+
+
+## Scripts
+
+The repository's pipeline consists of the following scripts:
+
+- [scripts/00-scrape.py](scripts/00-scrape.py): Scrapes the TSA FOIA electronic reading room for all relevant PDFs and downloads them to the [pdfs/](pdfs/) directory.
+- [scripts/01-parse.py](scripts/01-parse.py): Parses each of the PDFs, extracting the structured data and saving it to the [output/01-parsed/](output/01-parsed/) directory. For each PDF, the output includes two CSV files: one containing one row per fiscal year total (as stated literally in the PDF), and one containing one row per monthly total.
+- [scripts/02-combine.py](scripts/02-combine.py): Combines the monthly-total CSVs into a single, deduplicated CSV (since each report covers multiple years, and the coverage periods overlap across reports), saved to [output/02-combined/](output/02-combined/). Also saves three additional subsets, each focused on a single level of granularity (airport, airport-category, and airport-category-subcategory).
+    - In instances where the same month's data is available in multiple PDF reports, we use the counts from the most recent report. A given entry's count rarely changes over time; when it does, it's typically by small amounts.
+- [scripts/03-standardize.py](scripts/03-standardize.py): Standardizes the category and subcategory labels, since the reports' PDF layouts often trim the full description, and saves the results to [output/03-standardized/](output/03-standardized/). The script also trims redundant category prefixes from subcategory descriptions. See the [Data guidance](#data-guidance) section above for interpreting the results.
 
 ## Repository structure
 
