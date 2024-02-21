@@ -1,8 +1,15 @@
 # TSA Complaint Counts
 
-Since 2019, the TSA has posted data on traveler complaints to a [FOIA electronic reading room](https://www.tsa.gov/foia/readingroom?page=0). They post this data as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)) rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at irregular intervals. Because of the idiosyncratic fashion in which the records are provided, some additional effort is needed to get the data in a format that can be easily analyzed.
+Since 2019, the US Transportation Security Administration (TSA) has posted, in its [FOIA electronic reading room](https://www.tsa.gov/foia/readingroom?page=0), a series of reports on the monthly numbers of traveler complaints by airport, category, and subcategory.
 
-This repository fetches new PDFs as they become available, parses them, converts them to CSV files, standardizes the results,  and saves the [output](output/).
+Unfortunately, they post these data only as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)), rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at irregular intervals. Because of the idiosyncratic fashion in which the records are provided, some additional effort is needed to get the data in a format that can be easily analyzed.
+
+This repository, created by the [Data Liberation Project](https://www.data-liberation-project.org/) and [volunteers](#credits):
+
+- Fetches new PDFs as they become available
+- Parses the raw data from these PDFs
+- Converts that data into CSV files
+- Standardizes the results
 
 ## Scripts
 
