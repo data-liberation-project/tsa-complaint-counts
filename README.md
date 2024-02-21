@@ -1,8 +1,8 @@
 # TSA Complaint Counts
 
-Since 2019, the US Transportation Security Administration (TSA) has posted, in its [FOIA electronic reading room](https://www.tsa.gov/foia/readingroom?page=0), a series of reports on the monthly numbers of traveler complaints by airport, category, and subcategory.
+In its [FOIA Electronic Reading Room](https://www.tsa.gov/foia/readingroom?page=0), the US Transportation Security Administration (TSA) publishes semi-regular reports on the monthly numbers of traveler complaints by airport, category, and subcategory.
 
-Unfortunately, they post these data only as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)), rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at irregular intervals. Because of the idiosyncratic fashion in which the records are provided, some additional effort is needed to get the data in a format that can be easily analyzed.
+Unfortunately, they post these data only as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)), rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at unpredictable intervals. Because of the idiosyncratic fashion in which the records are provided, some additional effort is needed to get the data in a format that can be easily analyzed.
 
 This repository, created by the [Data Liberation Project](https://www.data-liberation-project.org/) and [volunteers](#credits):
 
