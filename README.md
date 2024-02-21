@@ -13,7 +13,7 @@ This repository, created by the [Data Liberation Project](https://www.data-liber
 
 ## Data guidance
 
-The Data Liberation Project recommends using the files in [output/03-standardized/](output/03-standardized/), which contain monthly complaint counts for January 2015 – October 2023 and are divided into three levels of granularity: 
+The Data Liberation Project recommends using the files in [output/03-standardized/](output/03-standardized/), which contain monthly complaint counts for January 2015 – January 2024 and are divided into three levels of granularity: 
 
 - [output/03-standardized/complaints-by-airport.csv](output/03-standardized/complaints-by-airport.csv): Overall complaint count by airport and month.
 - [output/03-standardized/complaints-by-category.csv](output/03-standardized/complaints-by-category.csv): Complaint count by airport, month, and complaint category.
