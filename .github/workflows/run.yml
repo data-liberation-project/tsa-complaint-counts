@@ -1,0 +1,62 @@
+name: Scrape PDFs, parse, and transform
+
+on:
+  # Run this job at 15:00 UTC every day
+  schedule:
+    - cron: "0 15 * * *"
+  # Also allow the job to be manually triggered
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+    - name: Check-out the repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        ref: main
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install Python venv and requirements
+      run: make venv
+
+    - name: Configure git
+      run: git config --global user.name "Automated"; git config user.email "actions@users.noreply.github.com"
+
+    - name: Log Python packages
+      run: |
+        source venv/bin/activate
+        pip freeze
+
+    - name: Log Python version and path
+      run: |
+        source venv/bin/activate
+        python --version
+        which python
+
+    # Scrape TSA website for new PDFs
+    - name: Scrape
+      run: |
+        source venv/bin/activate
+        make scrape
+        git add pdfs
+        git diff --cached --quiet || git commit -m "Add new/updated TSA complaint PDFs"
+        git push
+
+    # Parse new PDFs and transform data
+    - name: Parse and transform
+      run: | 
+        source venv/bin/activate
+        make transform
+        git add output
+        git diff --cached --quiet || git commit -m "Parse new PDFs and transform data"
+        git push

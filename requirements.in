@@ -1,0 +1,9 @@
+beautifulsoup4
+pandas
+requests
+pdfplumber==0.10.3
+jupyterlab
+flake8
+black
+isort
+mypy

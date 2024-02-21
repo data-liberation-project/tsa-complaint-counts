@@ -1,0 +1,471 @@
+category,subcategory,clean_cat,clean_subcat,clean_cat_status,clean_subcat_status,is_category_prefix_removed
+Expedited Passenger Screening Program,Expedited Passenger Screening Program,Expedited Passenger Screening Program,*,original,ambiguous,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Active Du,Expedited Passenger Screening Program,*Active Duty Military,original,imputed,TRUE
+Expedited Passenger Screening Program,Active Duty Military,Expedited Passenger Screening Program,*Active Duty Military,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Active Duty Military,Expedited Passenger Screening Program,*Active Duty Military,original,original,TRUE
+Expedited Passenger Screening Program,Children Under,Expedited Passenger Screening Program,*Children Under 12,original,imputed,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Children U,Expedited Passenger Screening Program,*Children Under 12,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Children Under,Expedited Passenger Screening Program,*Children Under 12,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Children Under 12,Expedited Passenger Screening Program,*Children Under 12,original,original,TRUE
+Property - Special Handling,Property - Special Handling - Damaged Ite,Property - Special Handling,*Damaged Items,original,ambiguous,TRUE
+Property - Special Handling,Property - Special Handling - Damaged Items - Carry,Property - Special Handling,*Damaged Items - Carry-On,original,imputed,TRUE
+Property - Special Handling,Property - Special Handling - Damaged Items - Carry-On,Property - Special Handling,*Damaged Items - Carry-On,original,original,TRUE
+Property - Special Handling,Property - Special Handling - Damaged Items - Check,Property - Special Handling,*Damaged Items - Checked,original,imputed,TRUE
+Property - Special Handling,Property - Special Handling - Damaged Items - Checked,Property - Special Handling,*Damaged Items - Checked,original,original,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Dam,Mishandling of Passenger Property,*Damaged/Missing Items,original,ambiguous,TRUE
+Mishandling of Passenger Property,Damaged/Missing Items Private Screening Co,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,imputed,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missin,Mishandling of Passenger Property,*Damaged/Missing Items,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items Pr,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items Private Scree,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items Private Screening Contra,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,imputed,TRUE
+Mishandling of Passenger Property,Damaged/Missing Items Private Screening Contractor,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items Private Screening Contractor,Mishandling of Passenger Property,*Damaged/Missing Items Private Screening Contractor,original,original,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--C,Mishandling of Passenger Property,*Damaged/Missing Items--C,original,ambiguous,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Carry-on Lug,Mishandling of Passenger Property,*Damaged/Missing Items--Carry-on Luggage,original,imputed,TRUE
+Mishandling of Passenger Property,Damaged/Missing Items--Carry-on Luggage,Mishandling of Passenger Property,*Damaged/Missing Items--Carry-on Luggage,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Carry-on Luggage,Mishandling of Passenger Property,*Damaged/Missing Items--Carry-on Luggage,original,original,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Checked Bag,Mishandling of Passenger Property,*Damaged/Missing Items--Checked Baggage,original,imputed,TRUE
+Mishandling of Passenger Property,Damaged/Missing Items--Checked Baggage,Mishandling of Passenger Property,*Damaged/Missing Items--Checked Baggage,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Checked Baggage,Mishandling of Passenger Property,*Damaged/Missing Items--Checked Baggage,original,original,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--U,Mishandling of Passenger Property,*Damaged/Missing Items--Unspecified Luggage,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Unspecified L,Mishandling of Passenger Property,*Damaged/Missing Items--Unspecified Luggage,original,imputed,TRUE
+Mishandling of Passenger Property,Damaged/Missing Items--Unspecified Luggage,Mishandling of Passenger Property,*Damaged/Missing Items--Unspecified Luggage,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Damaged/Missing Items--Unspecified Luggage,Mishandling of Passenger Property,*Damaged/Missing Items--Unspecified Luggage,original,original,TRUE
+Expedited Passenger Screening Program,DoD,Expedited Passenger Screening Program,*DoD,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - DoD,Expedited Passenger Screening Program,*DoD,original,original,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Known Cr,Expedited Passenger Screening Program,*Known Crew Member,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Known Crew Membe,Expedited Passenger Screening Program,*Known Crew Member,original,imputed,TRUE
+Expedited Passenger Screening Program,Known Crew Member,Expedited Passenger Screening Program,*Known Crew Member,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Known Crew Member,Expedited Passenger Screening Program,*Known Crew Member,original,original,TRUE
+Property - Special Handling,Property - Special Handling - Missing Item,Property - Special Handling,*Missing Item,original,ambiguous,TRUE
+Property - Special Handling,Property - Special Handling - Missing Items - Carry-O,Property - Special Handling,*Missing Items - Carry-On,original,imputed,TRUE
+Property - Special Handling,Property - Special Handling - Missing Items - Carry-On,Property - Special Handling,*Missing Items - Carry-On,original,original,TRUE
+Property - Special Handling,Property - Special Handling - Missing Items - Checke,Property - Special Handling,*Missing Items - Checked,original,imputed,TRUE
+Property - Special Handling,Property - Special Handling - Missing Items - Checked,Property - Special Handling,*Missing Items - Checked,original,original,TRUE
+Expedited Passenger Screening Program,Over,Expedited Passenger Screening Program,*Over 75,original,imputed,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Over,Expedited Passenger Screening Program,*Over 75,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - Over 75,Expedited Passenger Screening Program,*Over 75,original,original,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA Appl,Expedited Passenger Screening Program,*TSA Application Program,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA Application Prog,Expedited Passenger Screening Program,*TSA Application Program,original,imputed,TRUE
+Expedited Passenger Screening Program,TSA Application Program,Expedited Passenger Screening Program,*TSA Application Program,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA Application Program,Expedited Passenger Screening Program,*TSA Application Program,original,original,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA PreC,Expedited Passenger Screening Program,*TSA PreCheck,original,imputed,TRUE
+Expedited Passenger Screening Program,TSA PreCheck,Expedited Passenger Screening Program,*TSA PreCheck,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA PreCheck,Expedited Passenger Screening Program,*TSA PreCheck,original,original,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA/DHS,Expedited Passenger Screening Program,*TSA/DHS Employees - Opt In,original,imputed,TRUE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA/DHS Employees,Expedited Passenger Screening Program,*TSA/DHS Employees - Opt In,original,imputed,TRUE
+Expedited Passenger Screening Program,TSA/DHS Employees - Opt In,Expedited Passenger Screening Program,*TSA/DHS Employees - Opt In,original,original,FALSE
+Expedited Passenger Screening Program,Expedited Passenger Screening Program - TSA/DHS Employees - Opt In,Expedited Passenger Screening Program,*TSA/DHS Employees - Opt In,original,original,TRUE
+Civil Rights,Civil Rights - Age,Civil Rights,Age,original,original,TRUE
+Lost and Found,Airport/TSA,Lost and Found,Airport/TSA,original,original,FALSE
+Lost and Found,Lost and Found - Airport/TSA,Lost and Found,Airport/TSA,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Alcohol and,Prohibited & Permitted Items,Alcohol and Tobacco,original,imputed,TRUE
+Prohibited & Permitted Items,Alcohol and Tobacco,Prohibited & Permitted Items,Alcohol and Tobacco,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Alcohol and Tobacco,Prohibited & Permitted Items,Alcohol and Tobacco,original,original,TRUE
+General Aviation,General Aviation - Alien Flight School Pro,General Aviation,Alien Flight School Program (AFSP),original,imputed,TRUE
+General Aviation,General Aviation - Alien Flight School Program (AFSP,General Aviation,Alien Flight School Program (AFSP),original,imputed,TRUE
+General Aviation,Alien Flight School Program (AFSP),General Aviation,Alien Flight School Program (AFSP),original,original,FALSE
+General Aviation,General Aviation - Alien Flight School Program (AFSP),General Aviation,Alien Flight School Program (AFSP),original,original,TRUE
+Persons w/ Disabilities (PWD),Assistive Technology,Persons w/ Disabilities (PWD),Assistive Technology,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Assistive Technology,Persons w/ Disabilities (PWD),Assistive Technology,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Autism Sp,Persons w/ Disabilities (PWD),Autism Spectrum,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Autism Spectrum,Persons w/ Disabilities (PWD),Autism Spectrum,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Autism Spectrum,Persons w/ Disabilities (PWD),Autism Spectrum,original,original,TRUE
+Airline,Baggage Requirements,Airline,Baggage Requirements,original,original,FALSE
+Airline,Airline - Baggage Requirements,Airline,Baggage Requirements,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Beauty & G,Prohibited & Permitted Items,Beauty & Grooming Items,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Beauty & Grooming Ite,Prohibited & Permitted Items,Beauty & Grooming Items,original,imputed,TRUE
+Prohibited & Permitted Items,Beauty & Grooming Items,Prohibited & Permitted Items,Beauty & Grooming Items,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Beauty & Grooming Items,Prohibited & Permitted Items,Beauty & Grooming Items,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Breast Ca,Persons w/ Disabilities (PWD),Breast Cancer,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Breast Cancer,Persons w/ Disabilities (PWD),Breast Cancer,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Breast Cancer,Persons w/ Disabilities (PWD),Breast Cancer,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Breast Milk,Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Breast Milk/Baby Form,Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Breast Milk/Baby Formula/Breast,Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,original,imputed,TRUE
+Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Breast Milk/Baby Formula/Breast Pump,Prohibited & Permitted Items,Breast Milk/Baby Formula/Breast Pump,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cancer (g,Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cancer (general) Not,Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cancer (general) Not Breast Can,Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cancer (general) Not Breast Cancer,Persons w/ Disabilities (PWD),Cancer (general) Not Breast Cancer,original,original,TRUE
+Animals,Carry-On,Animals,Carry-On,original,original,FALSE
+Animals,Animals - Carry-On,Animals,Carry-On,original,original,TRUE
+Animals,Checked,Animals,Checked,original,original,FALSE
+Animals,Animals - Checked,Animals,Checked,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Chemical/H,Prohibited & Permitted Items,Chemical/Household Products,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Chemical/Household P,Prohibited & Permitted Items,Chemical/Household Products,original,imputed,TRUE
+Prohibited & Permitted Items,Chemical/Household Products,Prohibited & Permitted Items,Chemical/Household Products,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Chemical/Household Products,Prohibited & Permitted Items,Chemical/Household Products,original,original,TRUE
+Advanced Imaging Technology (AIT),Children,Advanced Imaging Technology (AIT),Children,original,original,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Children,Advanced Imaging Technology (AIT),Children,original,original,TRUE
+Patdown,Children,Patdown,Children,original,original,FALSE
+Patdown,Patdown - Children,Patdown,Children,original,original,TRUE
+Screening,Children,Screening,Children,original,original,FALSE
+Screening,Screening - Children,Screening,Children,original,original,TRUE
+Civil Rights,Civil Rights - Civil Rights Violation (TSA E,Civil Rights,Civil Rights Violation (TSA Employee),original,imputed,TRUE
+Civil Rights,Civil Rights - Civil Rights Violation (TSA Employee),Civil Rights,Civil Rights Violation (TSA Employee),original,original,TRUE
+Civil Rights,Civil Rights Violation (TSA Employee),Civil Rights,Civil Rights Violation (TSA Employee),original,original,FALSE
+Transcriptions,Transcriptions - Claim Form Request,Transcriptions,Claim Form Request,original,original,TRUE
+Screening,Classified Materials,Screening,Classified Materials,original,original,FALSE
+Screening,Screening - Classified Materials,Screening,Classified Materials,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cognitive /Developm,Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cognitive /Developmental /Ment,Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cognitive /Developmental /Mental Disability,Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Cognitive,Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,Persons w/ Disabilities (PWD),Cognitive /Developmental /Mental Disability,original,original,FALSE
+Civil Rights,Constitutional Rights,Civil Rights,Constitutional Rights,original,original,FALSE
+Civil Rights,Civil Rights - Constitutional Rights,Civil Rights,Constitutional Rights,original,original,TRUE
+Screening,Screening - Crew Member or Airline Empl,Screening,Crew Member or Airline Employee,original,imputed,TRUE
+Screening,Crew Member or Airline Employee,Screening,Crew Member or Airline Employee,original,original,FALSE
+Screening,Screening - Crew Member or Airline Employee,Screening,Crew Member or Airline Employee,original,original,TRUE
+Federal Air Marshall Service (FAMS),Crewmember Self Defense Training (CMSDT),Federal Air Marshall Service (FAMS),Crewmember Self Defense Training (CMSDT),original,original,FALSE
+Federal Air Marshall Service (FAMS),Federal Air Marshall Service (FAMS) - Crewmember Self Defense Training (CMSDT),Federal Air Marshall Service (FAMS),Crewmember Self Defense Training (CMSDT),original,original,TRUE
+Screening,Cruise Ships,Screening,Cruise Ships,original,original,FALSE
+Screening,Screening - Cruise Ships,Screening,Cruise Ships,original,original,TRUE
+Customer Service,CSM,Customer Service,CSM,original,original,FALSE
+Customer Service,Customer Service - CSM,Customer Service,CSM,original,original,TRUE
+Human Capital,Current Employee,Human Capital,Current Employee,original,original,FALSE
+Human Capital,Human Capital - Current Employee,Human Capital,Current Employee,original,original,TRUE
+Current Topic,Current Topic - Current Topic,Current Topic,Current Topic,original,original,TRUE
+Current Topic,Current Topic,Current Topic,Current Topic,original,original,FALSE
+Persons w/ Disabilities (PWD),Diabetes,Persons w/ Disabilities (PWD),Diabetes,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Diabetes,Persons w/ Disabilities (PWD),Diabetes,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Diapers/G,Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Diapers/Garments/D,Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Diapers/Garments/Dressings/Ma,Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Diapers/Garments/Dressings/Masks,Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,Persons w/ Disabilities (PWD),Diapers/Garments/Dressings/Masks,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Disa,Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Disarrayed Item,Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,original,imputed,TRUE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Disarrayed Items--Carry-on,Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,original,imputed,TRUE
+Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,original,original,FALSE
+Mishandling of Passenger Property,Mishandling of Passenger Property - Disarrayed Items--Carry-on or Checked,Mishandling of Passenger Property,Disarrayed Items--Carry-on or Checked,original,original,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - Domest,Identification (ID) Requirements,Domestic,original,imputed,TRUE
+Identification (ID) Requirements,Domestic,Identification (ID) Requirements,Domestic,original,original,FALSE
+Identification (ID) Requirements,Identification (ID) Requirements - Domestic,Identification (ID) Requirements,Domestic,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Electronic D,Prohibited & Permitted Items,Electronic Devices,original,imputed,TRUE
+Prohibited & Permitted Items,Electronic Devices,Prohibited & Permitted Items,Electronic Devices,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Electronic Devices,Prohibited & Permitted Items,Electronic Devices,original,original,TRUE
+Additional Information Required/Insufficient Inf,Additional Information Required/Insufficien,Additional Information Required/Insufficient Information,EMAIL ONLY,imputed,imputed,TRUE
+Additional Information Required/Insufficient Information,Additional Information Required/Insufficient Informatio,Additional Information Required/Insufficient Information,EMAIL ONLY,original,imputed,TRUE
+Additional Information Required/Insufficient Information,Additional Information Required/Insufficient Information - EMAIL,Additional Information Required/Insufficient Information,EMAIL ONLY,original,imputed,TRUE
+Additional Information Required/Insufficient Inform,EMAIL ONLY,Additional Information Required/Insufficient Information,EMAIL ONLY,imputed,original,FALSE
+Additional Information Required/Insufficient Information,EMAIL ONLY,Additional Information Required/Insufficient Information,EMAIL ONLY,original,original,FALSE
+Additional Information Required/Insufficient Information,Additional Information Required/Insufficient Information - EMAIL ONLY,Additional Information Required/Insufficient Information,EMAIL ONLY,original,original,TRUE
+Human Capital,Employment Verification,Human Capital,Employment Verification,original,original,FALSE
+Human Capital,Human Capital - Employment Verification,Human Capital,Employment Verification,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Firearm/Am,Prohibited & Permitted Items,Firearm/Ammunition,original,imputed,TRUE
+Prohibited & Permitted Items,Firearm/Ammunition,Prohibited & Permitted Items,Firearm/Ammunition,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Firearm/Ammunition,Prohibited & Permitted Items,Firearm/Ammunition,original,original,TRUE
+General Aviation,General Aviation - Flight Training Security,General Aviation,Flight Training Security Program (FTSP),original,imputed,TRUE
+General Aviation,General Aviation - Flight Training Security Program (FTSP),General Aviation,Flight Training Security Program (FTSP),original,original,TRUE
+Patdown,Patdown - Flyer,Patdown,Flyer,original,original,TRUE
+Advanced Imaging Technology (AIT),Flyer,Advanced Imaging Technology (AIT),Flyer as Observer,original,imputed,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Fly,Advanced Imaging Technology (AIT),Flyer as Observer,original,imputed,TRUE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Flyer,Advanced Imaging Technology (AIT),Flyer as Observer,original,imputed,TRUE
+Patdown,Flyer,Patdown,Flyer as Observer,original,imputed,FALSE
+Advanced Imaging Technology (AIT),Flyer as Observer,Advanced Imaging Technology (AIT),Flyer as Observer,original,original,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Flyer as Observer,Advanced Imaging Technology (AIT),Flyer as Observer,original,original,TRUE
+Patdown,Flyer as Observer,Patdown,Flyer as Observer,original,original,FALSE
+Patdown,Patdown - Flyer as Observer,Patdown,Flyer as Observer,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Food/Beve,Prohibited & Permitted Items,Food/Beverages,original,imputed,TRUE
+Prohibited & Permitted Items,Food/Beverages,Prohibited & Permitted Items,Food/Beverages,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Food/Beverages,Prohibited & Permitted Items,Food/Beverages,original,original,TRUE
+Human Capital,Former Employee,Human Capital,Former Employee,original,original,FALSE
+Human Capital,Human Capital - Former Employee,Human Capital,Former Employee,original,original,TRUE
+Screening,Gate Pass,Screening,Gate Pass,original,original,FALSE
+Screening,Screening - Gate Pass,Screening,Gate Pass,original,original,TRUE
+General Aviation,General,General Aviation,General,original,ambiguous,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Ge,Advanced Imaging Technology (AIT),General,original,imputed,TRUE
+"Business, Suggestions, and Ideas","Business, Suggestions, and Ideas - Gener","Business, Suggestions, and Ideas",General,original,imputed,TRUE
+Federal Air Marshall Service (FAMS),Federal Air Marshall Service (FAMS) - Ge,Federal Air Marshall Service (FAMS),General,original,imputed,TRUE
+Federal Flight Deck Officer (FFDO) Program,Federal Flight Deck Officer (FFDO) Progra,Federal Flight Deck Officer (FFDO) Program,General,original,imputed,TRUE
+Federal Flight Deck Officer (FFDO) Program,Federal Flight Deck Officer (FFDO) Program - Genera,Federal Flight Deck Officer (FFDO) Program,General,original,imputed,TRUE
+Freedom of Information Act (FOIA),Freedom of Information Act (FOIA) - Gene,Freedom of Information Act (FOIA),General,original,imputed,TRUE
+Notice of Violation/Civil Penalties,Notice of Violation/Civil Penalties - Genera,Notice of Violation/Civil Penalties,General,original,imputed,TRUE
+SIDA (Security Identification Display Area),SIDA (Security Identification Display Area,SIDA (Security Identification Display Area),General,original,imputed,TRUE
+Advanced Imaging Technology (AIT),General,Advanced Imaging Technology (AIT),General,original,original,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - General,Advanced Imaging Technology (AIT),General,original,original,TRUE
+"Business, Suggestions, and Ideas",General,"Business, Suggestions, and Ideas",General,original,original,FALSE
+"Business, Suggestions, and Ideas","Business, Suggestions, and Ideas - General","Business, Suggestions, and Ideas",General,original,original,TRUE
+Call Disconnect/Dropped/Wrong Number,General,Call Disconnect/Dropped/Wrong Number,General,original,original,FALSE
+Call Disconnect/Dropped/Wrong Number,Call Disconnect/Dropped/Wrong Number - General,Call Disconnect/Dropped/Wrong Number,General,original,original,TRUE
+Claims,General,Claims,General,original,original,FALSE
+Claims,Claims - General,Claims,General,original,original,TRUE
+CSM/Stakeholder Follow-up,General,CSM/Stakeholder Follow-up,General,original,original,FALSE
+CSM/Stakeholder Follow-up,CSM/Stakeholder Follow-up - General,CSM/Stakeholder Follow-up,General,original,original,TRUE
+DHS TRIP,General,DHS TRIP,General,original,original,FALSE
+DHS TRIP,DHS TRIP - General,DHS TRIP,General,original,original,TRUE
+Duplicate E-mail,General,Duplicate E-mail,General,original,original,FALSE
+Duplicate E-mail,Duplicate E-mail - General,Duplicate E-mail,General,original,original,TRUE
+Federal Air Marshall Service (FAMS),General,Federal Air Marshall Service (FAMS),General,original,original,FALSE
+Federal Air Marshall Service (FAMS),Federal Air Marshall Service (FAMS) - General,Federal Air Marshall Service (FAMS),General,original,original,TRUE
+Federal Flight Deck Officer (FFDO) Program,General,Federal Flight Deck Officer (FFDO) Program,General,original,original,FALSE
+Federal Flight Deck Officer (FFDO) Program,Federal Flight Deck Officer (FFDO) Program - General,Federal Flight Deck Officer (FFDO) Program,General,original,original,TRUE
+Flying Armed,General,Flying Armed,General,original,original,FALSE
+Flying Armed,Flying Armed - General,Flying Armed,General,original,original,TRUE
+Freedom of Information Act (FOIA),General,Freedom of Information Act (FOIA),General,original,original,FALSE
+Freedom of Information Act (FOIA),Freedom of Information Act (FOIA) - General,Freedom of Information Act (FOIA),General,original,original,TRUE
+General Aviation,General Aviation - General,General Aviation,General,original,original,TRUE
+Hazardous Materials Safety,General,Hazardous Materials Safety,General,original,original,FALSE
+Hazardous Materials Safety,Hazardous Materials Safety - General,Hazardous Materials Safety,General,original,original,TRUE
+HAZMAT Endorsement,General,HAZMAT Endorsement,General,original,original,FALSE
+HAZMAT Endorsement,HAZMAT Endorsement - General,HAZMAT Endorsement,General,original,original,TRUE
+Intranet/Internet Inquiries,General,Intranet/Internet Inquiries,General,original,original,FALSE
+Intranet/Internet Inquiries,Intranet/Internet Inquiries - General,Intranet/Internet Inquiries,General,original,original,TRUE
+Locks,General,Locks,General,original,original,FALSE
+Locks,Locks - General,Locks,General,original,original,TRUE
+No Subject,General,No Subject,General,original,original,FALSE
+No Subject,No Subject - General,No Subject,General,original,original,TRUE
+Notice of Violation/Civil Penalties,General,Notice of Violation/Civil Penalties,General,original,original,FALSE
+Notice of Violation/Civil Penalties,Notice of Violation/Civil Penalties - General,Notice of Violation/Civil Penalties,General,original,original,TRUE
+Ombudsman,General,Ombudsman,General,original,original,FALSE
+Ombudsman,Ombudsman - General,Ombudsman,General,original,original,TRUE
+Patdown,General,Patdown,General,original,original,FALSE
+Patdown,Patdown - General,Patdown,General,original,original,TRUE
+Persons w/ Disabilities (PWD),General,Persons w/ Disabilities (PWD),General,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - General,Persons w/ Disabilities (PWD),General,original,original,TRUE
+Prohibited & Permitted Items,General,Prohibited & Permitted Items,General,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - General,Prohibited & Permitted Items,General,original,original,TRUE
+SIDA (Security Identification Display Area),General,SIDA (Security Identification Display Area),General,original,original,FALSE
+SIDA (Security Identification Display Area),SIDA (Security Identification Display Area) - General,SIDA (Security Identification Display Area),General,original,original,TRUE
+SPAM,SPAM - General,SPAM,General,original,original,TRUE
+System Administrator,General,System Administrator,General,original,original,FALSE
+System Administrator,System Administrator - General,System Administrator,General,original,original,TRUE
+TSA Contact Information,General,TSA Contact Information,General,original,original,FALSE
+TSA Contact Information,TSA Contact Information - General,TSA Contact Information,General,original,original,TRUE
+TWIC,TWIC - General,TWIC,General,original,original,TRUE
+TWIC,General,TWIC,General,original,original,FALSE
+Civil Rights,General Complaint and Discrimination,Civil Rights,General Complaint and Discrimination,original,original,FALSE
+Civil Rights,Civil Rights - General Complaint and Discrimination,Civil Rights,General Complaint and Discrimination,original,original,TRUE
+Civil Rights,Civil Rights - Hair Patdowns,Civil Rights,Hair Patdowns,original,original,TRUE
+Civil Rights,Headwear,Civil Rights,Headwear,original,original,FALSE
+Civil Rights,Civil Rights - Headwear,Civil Rights,Headwear,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Hearing Im,Persons w/ Disabilities (PWD),Hearing Impairment,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Hearing Impairment,Persons w/ Disabilities (PWD),Hearing Impairment,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Hearing Impairment,Persons w/ Disabilities (PWD),Hearing Impairment,original,original,TRUE
+Civil Rights,Civil Rights - Hostile Work Environment (T,Civil Rights,Hostile Work Environment (TSA Employee),original,imputed,TRUE
+Civil Rights,Civil Rights - Hostile Work Environment (TSA Employ,Civil Rights,Hostile Work Environment (TSA Employee),original,imputed,TRUE
+Civil Rights,Hostile Work Environment (TSA Employee),Civil Rights,Hostile Work Environment (TSA Employee),original,original,FALSE
+Civil Rights,Civil Rights - Hostile Work Environment (TSA Employee),Civil Rights,Hostile Work Environment (TSA Employee),original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Ice/Gel Pac,Prohibited & Permitted Items,Ice/Gel Packs,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Ice/Gel Packs,Prohibited & Permitted Items,Ice/Gel Packs,original,original,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - ID Matching Ticket,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,imputed,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - ID Matching Ticket and Boardin,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,imputed,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - ID Matching Ticket and Boarding Pass Iss,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,imputed,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - ID Matc,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,imputed,TRUE
+Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,original,FALSE
+Identification (ID) Requirements,Identification (ID) Requirements - ID Matching Ticket and Boarding Pass Issues,Identification (ID) Requirements,ID Matching Ticket and Boarding Pass Issues,original,original,TRUE
+Screening,Inconsistency,Screening,Inconsistency,original,original,FALSE
+Screening,Screening - Inconsistency,Screening,Inconsistency,original,original,TRUE
+Cargo,Indirect Air Carrier (IAC),Cargo,Indirect Air Carrier (IAC),original,original,FALSE
+Cargo,Cargo - Indirect Air Carrier (IAC),Cargo,Indirect Air Carrier (IAC),original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Internal M,Persons w/ Disabilities (PWD),Internal Medical Devices,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Internal Medical Dev,Persons w/ Disabilities (PWD),Internal Medical Devices,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Internal Medical Devices,Persons w/ Disabilities (PWD),Internal Medical Devices,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Internal Medical Devices,Persons w/ Disabilities (PWD),Internal Medical Devices,original,original,TRUE
+Screening,International Screening,Screening,International Screening,original,original,FALSE
+Screening,Screening - International Screening,Screening,International Screening,original,original,TRUE
+Identification (ID) Requirements,International Travel,Identification (ID) Requirements,International Travel,original,original,FALSE
+Identification (ID) Requirements,Identification (ID) Requirements - International Travel,Identification (ID) Requirements,International Travel,original,original,TRUE
+Prohibited & Permitted Items,Knitting/Crochet Hooks/Needles,Prohibited & Permitted Items,Knitting/Crochet Hooks/Needles,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Knitting/Crochet Hooks/Needles,Prohibited & Permitted Items,Knitting/Crochet Hooks/Needles,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Knives/Too,Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Knives/Tools/Razors/S,Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Knives/Tools/Razors/Sharp Objec,Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,original,imputed,TRUE
+Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Knives/Tools/Razors/Sharp Objects,Prohibited & Permitted Items,Knives/Tools/Razors/Sharp Objects,original,original,TRUE
+Cargo,Known Shipper,Cargo,Known Shipper,original,original,FALSE
+Cargo,Cargo - Known Shipper,Cargo,Known Shipper,original,original,TRUE
+Screening,Lengthy Lines,Screening,Lengthy Lines,original,original,FALSE
+Screening,Screening - Lengthy Lines,Screening,Lengthy Lines,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Lighters/Ma,Prohibited & Permitted Items,Lighters/Matches,original,imputed,TRUE
+Prohibited & Permitted Items,Lighters/Matches,Prohibited & Permitted Items,Lighters/Matches,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Lighters/Matches,Prohibited & Permitted Items,Lighters/Matches,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Liquids/Ge,Prohibited & Permitted Items,Liquids/Gels/Aerosols,original,imputed,TRUE
+Prohibited & Permitted Items,Liquids/Gels/Aerosols,Prohibited & Permitted Items,Liquids/Gels/Aerosols,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Liquids/Gels/Aerosols,Prohibited & Permitted Items,Liquids/Gels/Aerosols,original,original,TRUE
+Airline,Lost Baggage,Airline,Lost Baggage,original,original,FALSE
+Airline,Airline - Lost Baggage,Airline,Lost Baggage,original,original,TRUE
+Prohibited & Permitted Items,Marijuana,Prohibited & Permitted Items,Marijuana,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Marijuana,Prohibited & Permitted Items,Marijuana,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medical D,Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medical Devices - At,Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medical Devices - Attached to th,Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medical Devices - Attached to the Body,Persons w/ Disabilities (PWD),Medical Devices - Attached to the Body,original,original,TRUE
+Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,imputed,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medically Necessary,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medically Necessary Medication,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medically Necessary Medication and Medic,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medically,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Medically Necessary Medication and Medical Supplies,Persons w/ Disabilities (PWD),Medically Necessary Medication and Medical Supplies,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Medication/Prescriptio,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Medication/Prescription/Medically,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Medication/Prescription/Medically Necessary,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,imputed,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Medication,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,imputed,TRUE
+Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Medication/Prescription/Medically Necessary Items,Prohibited & Permitted Items,Medication/Prescription/Medically Necessary Items,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Metal Imp,Persons w/ Disabilities (PWD),Metal Implants (joint),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Metal Implants (joint),Persons w/ Disabilities (PWD),Metal Implants (joint),original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Metal Implants (joint),Persons w/ Disabilities (PWD),Metal Implants (joint),original,original,TRUE
+Screening,Military,Screening,Military,original,original,FALSE
+Screening,Screening - Military,Screening,Military,original,original,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - Minors D,Identification (ID) Requirements,Minors Domestic,original,imputed,TRUE
+Identification (ID) Requirements,Minors Domestic,Identification (ID) Requirements,Minors Domestic,original,original,FALSE
+Identification (ID) Requirements,Identification (ID) Requirements - Minors Domestic,Identification (ID) Requirements,Minors Domestic,original,original,TRUE
+Locks,Missing or Damaged Lock,Locks,Missing or Damaged Lock,original,original,FALSE
+Locks,Locks - Missing or Damaged Lock,Locks,Missing or Damaged Lock,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Mobility Disability (No,Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Mobility Disability (Not Wheelch,Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Mobility Disability (Not Wheelchair or Scoot,Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Mobility D,Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Mobility Disability (Not Wheelchair or Scooter),Persons w/ Disabilities (PWD),Mobility Disability (Not Wheelchair or Scooter),original,original,TRUE
+Civil Rights,National Origin,Civil Rights,National Origin,original,original,FALSE
+Civil Rights,Civil Rights - National Origin,Civil Rights,National Origin,original,original,TRUE
+Public Affairs,"Newspaper, Radio, TV Representatives",Public Affairs,"Newspaper, Radio, TV Representatives",original,original,FALSE
+Public Affairs,"Public Affairs - Newspaper, Radio, TV Representatives",Public Affairs,"Newspaper, Radio, TV Representatives",original,original,TRUE
+No Jurisdiction,No Referral,No Jurisdiction,No Referral,original,original,FALSE
+No Jurisdiction,No Jurisdiction - No Referral,No Jurisdiction,No Referral,original,original,TRUE
+Advanced Imaging Technology (AIT),Non-Flyer,Advanced Imaging Technology (AIT),Non-Flyer,original,original,FALSE
+Advanced Imaging Technology (AIT),Advanced Imaging Technology (AIT) - Non-Flyer,Advanced Imaging Technology (AIT),Non-Flyer,original,original,TRUE
+Patdown,Non-Flyer,Patdown,Non-Flyer,original,original,FALSE
+Patdown,Patdown - Non-Flyer,Patdown,Non-Flyer,original,original,TRUE
+Request for Assistance,Request for Assistance - Non-Persons w/ Disabilities,Request for Assistance,Non-Persons w/ Disabilities (PWD),original,imputed,TRUE
+Request for Assistance,Request for Assistance - Non-Persons w/ Disabilities (PWD),Request for Assistance,Non-Persons w/ Disabilities (PWD),original,original,TRUE
+Civil Rights,Civil Rights - Not Specified,Civil Rights,Not Specified,original,original,TRUE
+Screening,Screening - Opposite Gender,Screening,Opposite Gender,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Ostomy/O,Persons w/ Disabilities (PWD),Ostomy/Ostomates,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Ostomy/Ostomates,Persons w/ Disabilities (PWD),Ostomy/Ostomates,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Ostomy/Ostomates,Persons w/ Disabilities (PWD),Ostomy/Ostomates,original,original,TRUE
+Request for Assistance,Other,Request for Assistance,Other,original,original,FALSE
+Request for Assistance,Request for Assistance - Other,Request for Assistance,Other,original,original,TRUE
+Customer Service,Others,Customer Service,Others,original,original,FALSE
+Customer Service,Customer Service - Others,Customer Service,Others,original,original,TRUE
+Airline,Oxygen Regulations,Airline,Oxygen Regulations,original,original,FALSE
+Airline,Airline - Oxygen Regulations,Airline,Oxygen Regulations,original,original,TRUE
+Civil Rights,Perceived Religion,Civil Rights,Perceived Religion,original,original,FALSE
+Civil Rights,Civil Rights - Perceived Religion,Civil Rights,Perceived Religion,original,original,TRUE
+Airline,Policy/Regulations/Service,Airline,Policy/Regulations/Service,original,original,FALSE
+Airline,Airline - Policy/Regulations/Service,Airline,Policy/Regulations/Service,original,original,TRUE
+Airline,Positive Bag Match Program,Airline,Positive Bag Match Program,original,original,FALSE
+Airline,Airline - Positive Bag Match Program,Airline,Positive Bag Match Program,original,original,TRUE
+Screening,Procedures/Process,Screening,Procedures/Process,original,original,FALSE
+Screening,Screening - Procedures/Process,Screening,Procedures/Process,original,original,TRUE
+Civil Rights,Civil Rights - Profiling,Civil Rights,Profiling,original,original,TRUE
+Human Capital,Human Capital - Prospective Employment,Human Capital,Prospective Employment with TSA,original,imputed,TRUE
+Human Capital,Prospective Employment with TSA,Human Capital,Prospective Employment with TSA,original,original,FALSE
+Human Capital,Human Capital - Prospective Employment with TSA,Human Capital,Prospective Employment with TSA,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Prosthesi,Persons w/ Disabilities (PWD),Prosthesis/Amputees and Casts,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Prosthesis/Amputees,Persons w/ Disabilities (PWD),Prosthesis/Amputees and Casts,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Prosthesis/Amputees and Casts,Persons w/ Disabilities (PWD),Prosthesis/Amputees and Casts,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Prosthesis/Amputees and Casts,Persons w/ Disabilities (PWD),Prosthesis/Amputees and Casts,original,original,TRUE
+Civil Rights,Civil Rights - Race,Civil Rights,Race,original,original,TRUE
+Civil Rights,Civil Rights - Racial Profiling or Discrimina,Civil Rights,Racial Profiling or Discrimination,original,imputed,TRUE
+Civil Rights,Racial Profiling or Discrimination,Civil Rights,Racial Profiling or Discrimination,original,original,FALSE
+Civil Rights,Civil Rights - Racial Profiling or Discrimination,Civil Rights,Racial Profiling or Discrimination,original,original,TRUE
+Screening,Rail,Screening,Rail,original,original,FALSE
+Screening,Screening - Rail,Screening,Rail,original,original,TRUE
+Identification (ID) Requirements,Identification (ID) Requirements - Real ID,Identification (ID) Requirements,Real ID,original,original,TRUE
+Transportation Security Operations Center,Transportation Security Operations Cente,Transportation Security Operations Center,Refer to Airport,original,imputed,TRUE
+Transportation Security Operations Center,Transportation Security Operations Center - Refer to Airport,Transportation Security Operations Center,Refer to Airport,original,original,TRUE
+No Jurisdiction,Refer to CBP,No Jurisdiction,Refer to CBP,original,original,FALSE
+No Jurisdiction,No Jurisdiction - Refer to CBP,No Jurisdiction,Refer to CBP,original,original,TRUE
+No Jurisdiction,No Jurisdiction - Refer to Department of S,No Jurisdiction,Refer to Department of State,original,imputed,TRUE
+No Jurisdiction,Refer to Department of State,No Jurisdiction,Refer to Department of State,original,original,FALSE
+No Jurisdiction,No Jurisdiction - Refer to Department of State,No Jurisdiction,Refer to Department of State,original,original,TRUE
+No Jurisdiction,Refer to FAA,No Jurisdiction,Refer to FAA,original,original,FALSE
+No Jurisdiction,No Jurisdiction - Refer to FAA,No Jurisdiction,Refer to FAA,original,original,TRUE
+No Jurisdiction,Refer to Other,No Jurisdiction,Refer to Other,original,original,FALSE
+No Jurisdiction,No Jurisdiction - Refer to Other,No Jurisdiction,Refer to Other,original,original,TRUE
+Prohibited & Permitted Items,Remains,Prohibited & Permitted Items,Remains,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Remains,Prohibited & Permitted Items,Remains,original,original,TRUE
+Transfer to Security Specialist,Transfer to Security Specialist - Reportabl,Transfer to Security Specialist,Reportable Communication,original,imputed,TRUE
+Transfer to Security Specialist,Transfer to Security Specialist - Reportable Commun,Transfer to Security Specialist,Reportable Communication,original,imputed,TRUE
+Transfer to Security Specialist,Transfer to Security Specialist - Reportable Communication,Transfer to Security Specialist,Reportable Communication,original,original,TRUE
+Claims,Request to be Transferred,Claims,Request to be Transferred,original,original,FALSE
+Claims,Claims - Request to be Transferred,Claims,Request to be Transferred,original,original,TRUE
+TWIC,TWIC - Required Documents,TWIC,Required Documents,original,original,TRUE
+TWIC,Required Documents,TWIC,Required Documents,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Respirato,Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Respiratory and Inha,Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Respiratory and Inhaler Equipme,Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Respiratory and Inhaler Equipment,Persons w/ Disabilities (PWD),Respiratory and Inhaler Equipment,original,original,TRUE
+Screening,Screening - Retrieving Abandoned/Confisc,Screening,Retrieving Abandoned/Confiscated Items,original,imputed,TRUE
+Screening,Retrieving Abandoned/Confiscated Items,Screening,Retrieving Abandoned/Confiscated Items,original,original,FALSE
+Screening,Screening - Retrieving Abandoned/Confiscated Items,Screening,Retrieving Abandoned/Confiscated Items,original,original,TRUE
+Civil Rights,Screening of Religious Cultural and Ceremoni,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,imputed,FALSE
+Civil Rights,Civil Rights - Screening of Religious Cultural and Cer,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,imputed,TRUE
+Civil Rights,Civil Rights - Screening of Religious Cultural and Ceremonial Item,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,imputed,TRUE
+Civil Rights,Civil Rights - Screening of Religious Cultu,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,imputed,TRUE
+Civil Rights,Screening of Religious Cultural and Ceremonial Items,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,original,FALSE
+Civil Rights,Civil Rights - Screening of Religious Cultural and Ceremonial Items,Civil Rights,Screening of Religious Cultural and Ceremonial Items,original,original,TRUE
+Civil Rights,Civil Rights - Screening of Religious or Cu,Civil Rights,Screening of Religious or Cultural Garments,original,imputed,TRUE
+Civil Rights,Civil Rights - Screening of Religious or Cultural Garm,Civil Rights,Screening of Religious or Cultural Garments,original,imputed,TRUE
+Civil Rights,Screening of Religious or Cultural Garments,Civil Rights,Screening of Religious or Cultural Garments,original,original,FALSE
+Civil Rights,Civil Rights - Screening of Religious or Cultural Garments,Civil Rights,Screening of Religious or Cultural Garments,original,original,TRUE
+Screening,Security Breach,Screening,Security Breach,original,original,FALSE
+Screening,Screening - Security Breach,Screening,Security Breach,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Service A,Persons w/ Disabilities (PWD),Service Animals,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Service Animals,Persons w/ Disabilities (PWD),Service Animals,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Service Animals,Persons w/ Disabilities (PWD),Service Animals,original,original,TRUE
+Civil Rights,Civil Rights - Sex/Gender/Gender Identity- Not Transg,Civil Rights,Sex/Gender/Gender Identity- Not Transgender,original,imputed,TRUE
+Civil Rights,Civil Rights - Sex/Gender/Gender Identity-,Civil Rights,Sex/Gender/Gender Identity- Not Transgender,original,imputed,TRUE
+Civil Rights,Sex/Gender/Gender Identity- Not Transgender,Civil Rights,Sex/Gender/Gender Identity- Not Transgender,original,original,FALSE
+Civil Rights,Civil Rights - Sex/Gender/Gender Identity- Not Transgender,Civil Rights,Sex/Gender/Gender Identity- Not Transgender,original,original,TRUE
+Civil Rights,Civil Rights - Sexual Harassment (TSA Em,Civil Rights,Sexual Harassment (TSA Employee),original,imputed,TRUE
+Civil Rights,Sexual Harassment (TSA Employee),Civil Rights,Sexual Harassment (TSA Employee),original,original,FALSE
+Civil Rights,Civil Rights - Sexual Harassment (TSA Employee),Civil Rights,Sexual Harassment (TSA Employee),original,original,TRUE
+Civil Rights,Civil Rights - Sexual Orientation - Not Tran,Civil Rights,Sexual Orientation - Not Transgender,original,imputed,TRUE
+Civil Rights,Sexual Orientation - Not Transgender,Civil Rights,Sexual Orientation - Not Transgender,original,original,FALSE
+Civil Rights,Civil Rights - Sexual Orientation - Not Transgender,Civil Rights,Sexual Orientation - Not Transgender,original,original,TRUE
+Screening,Shoe Screening,Screening,Shoe Screening,original,original,FALSE
+Screening,Screening - Shoe Screening,Screening,Shoe Screening,original,original,TRUE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Sporting G,Prohibited & Permitted Items,Sporting Goods,original,imputed,TRUE
+Prohibited & Permitted Items,Sporting Goods,Prohibited & Permitted Items,Sporting Goods,original,original,FALSE
+Prohibited & Permitted Items,Prohibited & Permitted Items - Sporting Goods,Prohibited & Permitted Items,Sporting Goods,original,original,TRUE
+Claims,Status,Claims,Status,original,original,FALSE
+Claims,Claims - Status,Claims,Status,original,original,TRUE
+DHS TRIP,Status,DHS TRIP,Status,original,original,FALSE
+DHS TRIP,DHS TRIP - Status,DHS TRIP,Status,original,original,TRUE
+HAZMAT Endorsement,Status,HAZMAT Endorsement,Status,original,original,FALSE
+HAZMAT Endorsement,HAZMAT Endorsement - Status,HAZMAT Endorsement,Status,original,original,TRUE
+TWIC,TWIC - Status,TWIC,Status,original,original,TRUE
+TWIC,Status,TWIC,Status,original,original,FALSE
+Customer Service,TCC,Customer Service,TCC,original,original,FALSE
+Customer Service,Customer Service - TCC,Customer Service,TCC,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Touch Av,Persons w/ Disabilities (PWD),Touch Aversion (pain/trauma),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Touch Aversion (pain,Persons w/ Disabilities (PWD),Touch Aversion (pain/trauma),original,imputed,TRUE
+Persons w/ Disabilities (PWD),Touch Aversion (pain/trauma),Persons w/ Disabilities (PWD),Touch Aversion (pain/trauma),original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Touch Aversion (pain/trauma),Persons w/ Disabilities (PWD),Touch Aversion (pain/trauma),original,original,TRUE
+Ombudsman,Transfer to Ombudsman,Ombudsman,Transfer to Ombudsman,original,original,FALSE
+Civil Rights,Transgender Screening,Civil Rights,Transgender Screening,original,original,FALSE
+Civil Rights,Civil Rights - Transgender Screening,Civil Rights,Transgender Screening,original,original,TRUE
+Screening,Traveling with Cash,Screening,Traveling with Cash,original,original,FALSE
+Screening,Screening - Traveling with Cash,Screening,Traveling with Cash,original,original,TRUE
+Human Capital,TSA Background Check,Human Capital,TSA Background Check,original,original,FALSE
+Human Capital,Human Capital - TSA Background Check,Human Capital,TSA Background Check,original,original,TRUE
+Customer Service,TSO,Customer Service,TSO,original,original,FALSE
+Customer Service,Customer Service - TSO,Customer Service,TSO,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Visual Im,Persons w/ Disabilities (PWD),Visual Impairment,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Visual Impairment,Persons w/ Disabilities (PWD),Visual Impairment,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Visual Impairment,Persons w/ Disabilities (PWD),Visual Impairment,original,original,TRUE
+Human Capital,Human Capital - Wage Garnishment,Human Capital,Wage Garnishment,original,original,TRUE
+Airline,Wheelchair Assistance,Airline,Wheelchair Assistance,original,original,FALSE
+Airline,Airline - Wheelchair Assistance,Airline,Wheelchair Assistance,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Wheelcha,Persons w/ Disabilities (PWD),Wheelchair/ Scooter/ Segway,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Wheelchair/ Scooter/,Persons w/ Disabilities (PWD),Wheelchair/ Scooter/ Segway,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Wheelchair/ Scooter/ Segway,Persons w/ Disabilities (PWD),Wheelchair/ Scooter/ Segway,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Wheelchair/ Scooter/ Segway,Persons w/ Disabilities (PWD),Wheelchair/ Scooter/ Segway,original,original,TRUE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Wounded,Persons w/ Disabilities (PWD),Wounded Warrior,original,imputed,TRUE
+Persons w/ Disabilities (PWD),Wounded Warrior,Persons w/ Disabilities (PWD),Wounded Warrior,original,original,FALSE
+Persons w/ Disabilities (PWD),Persons w/ Disabilities (PWD) - Wounded Warrior,Persons w/ Disabilities (PWD),Wounded Warrior,original,original,TRUE
+Request for Assistance,Request for Assistance - Wounded Warrio,Request for Assistance,Wounded Warrior (MSIJSOC),original,imputed,TRUE
+Request for Assistance,Request for Assistance - Wounded Warrior (MSIJSOC,Request for Assistance,Wounded Warrior (MSIJSOC),original,imputed,TRUE
+Request for Assistance,Wounded Warrior (MSIJSOC),Request for Assistance,Wounded Warrior (MSIJSOC),original,original,FALSE
+Request for Assistance,Request for Assistance - Wounded Warrior (MSIJSOC),Request for Assistance,Wounded Warrior (MSIJSOC),original,original,TRUE
