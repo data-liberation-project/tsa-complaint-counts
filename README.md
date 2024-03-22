@@ -35,6 +35,13 @@ These CSV files use the following fields, where applicable:
 | clean_subcat_status | `imputed` | See below for details. |
 | is_category_prefix_removed | `True` | Whether the standardization process trimmed off the (redundant) category label from the subcategory label. |
 
+### Caveat: Comparisons over time
+
+In March 2024, a TSA spokesperson [provided comments to FedScoop reporter Rebecca Heilweil](https://fedscoop.com/tsa-precheck-complaints-data/) indicating that (at least) some of the increase in complaints over time can be attributed to the agency making it easier to submit PreCheck complaints:
+
+> The spokesperson said that changes to several platforms and customer service tools are responsible for the rise in complaints. In May 2021, the agency created a new TSA PreCheck webform that saw complaints increase around 79% in the following four months. That August, the agency deployed messaging enhancements that, in combination with the new online form, saw complaints grow by 62% in the subsequent four months. (Switching to Salesforce for the TSA Contact Center at the end of 2020 also meant that the airport field in the data started to populate). 
+
+
 ### Caveat: Ambiguous subcategories
 
 Due to how the TSA formats its PDFs, subcategories are sometimes rendered ambiguously.
