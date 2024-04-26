@@ -158,6 +158,9 @@ def parse_pdf(pdf, pdf_year, pdf_month, max_pages=None):
     max_date = "0000-01"
 
     for page in pdf.pages[:max_pages]:
+        text = page.extract_text()
+        if "collecting customer service data voluntarily" in text:
+            continue
         chars_by_line = pdfplumber.utils.cluster_objects(page.chars, "top", tolerance=2)
 
         # Note: Intentionally skips first two lines and last line
