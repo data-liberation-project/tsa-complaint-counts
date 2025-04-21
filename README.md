@@ -11,7 +11,7 @@ This repository, created by the [Data Liberation Project](https://www.data-liber
 - Converted that data into CSV files
 - Standardized the results
 
-By January 30, 2025, the TSA had removed **all historical traveler complaint reports** from its FOIA Electronic Reading Room. This repository now serves as a historical archive of those records.
+On January 30, 2025, the TSA removed **all historical traveler complaint reports** from its FOIA Electronic Reading Room. This repository now serves as a historical archive of those records.
 
 ## Data Guidance
 
