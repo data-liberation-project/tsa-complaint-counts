@@ -159,8 +159,14 @@ def parse_pdf(pdf, pdf_year, pdf_month, max_pages=None):
 
     for page in pdf.pages[:max_pages]:
         text = page.extract_text()
-        if "collecting customer service data voluntarily" in text:
+
+        # Normalize the text: remove excess whitespace and make the comparison case-insensitive
+        normalized_text = " ".join(text.split()).lower()  # Normalize by stripping whitespace and lowering the case
+
+        # Check if the target phrase exists in the normalized text
+        if "customer feedback and encourages passengers" in normalized_text:
             continue
+
         chars_by_line = pdfplumber.utils.cluster_objects(page.chars, "top", tolerance=2)
 
         # Note: Intentionally skips first two lines and last line
@@ -206,9 +212,7 @@ def parse_pdf(pdf, pdf_year, pdf_month, max_pages=None):
                 row_month = common_values.copy()
 
                 if month_num > 9:
-                    row_month[
-                        "year_month"
-                    ] = f"{int(row_total['year'])-1}-{month_num:02d}"
+                    row_month["year_month"] = f"{int(row_total['year'])-1}-{month_num:02d}"
                 else:
                     row_month["year_month"] = f"{row_total['year']}-{month_num:02d}"
 

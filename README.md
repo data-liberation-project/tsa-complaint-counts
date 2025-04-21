@@ -1,17 +1,19 @@
 # TSA Complaint Counts
 
-In its [FOIA Electronic Reading Room](https://www.tsa.gov/foia/readingroom?page=0), the US Transportation Security Administration (TSA) publishes semi-regular reports on the monthly numbers of traveler complaints by airport, category, and subcategory.
+In its [FOIA Electronic Reading Room](https://www.tsa.gov/foia/readingroom?page=0), the US Transportation Security Administration (TSA) previously published semi-regular reports on the monthly numbers of traveler complaints by airport, category, and subcategory.
 
-Unfortunately, they post these data only as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)), rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at unpredictable intervals. Because of the idiosyncratic fashion in which the records are provided, some additional effort is needed to get the data in a format that can be easily analyzed.
+Unfortunately, this data was made available only as PDFs ([example here](https://www.tsa.gov/sites/default/files/foia-readingroom/tsa-contact-center-traveler-complaints-report-may-2023.xlsm_.pdf)), rather than as [machine-readable data files](https://en.wikipedia.org/wiki/Machine-readable_medium_and_data#Data), and at unpredictable intervals. Because of the idiosyncratic format in which the records were released, additional effort was needed to extract and standardize the data for analysis.
 
 This repository, created by the [Data Liberation Project](https://www.data-liberation-project.org/) and [volunteers](#credits):
 
-- Fetches new PDFs as they become available
-- Parses the raw data from these PDFs
-- Converts that data into CSV files
-- Standardizes the results
+- Fetched new PDFs as they were made available
+- Parsed the raw data from those PDFs
+- Converted that data into CSV files
+- Standardized the results
 
-## Data guidance
+By January 30, 2025, the TSA had removed **all historical traveler complaint reports** from its FOIA Electronic Reading Room. This repository now serves as a historical archive of those records.
+
+## Data Guidance
 
 The Data Liberation Project recommends using the files in [output/03-standardized/](output/03-standardized/), which contain monthly complaint counts for January 2015 – March 2024 and are divided into three levels of granularity: 
 
@@ -35,14 +37,14 @@ These CSV files use the following fields, where applicable:
 | clean_subcat_status | `imputed` | See below for details. |
 | is_category_prefix_removed | `True` | Whether the standardization process trimmed off the (redundant) category label from the subcategory label. |
 
-### Caveat: Comparisons over time
+### Caveat: Comparisons Over Time
 
 In March 2024, a TSA spokesperson [provided comments to FedScoop reporter Rebecca Heilweil](https://fedscoop.com/tsa-precheck-complaints-data/) indicating that (at least) some of the increase in complaints over time can be attributed to the agency making it easier to submit PreCheck complaints:
 
 > The spokesperson said that changes to several platforms and customer service tools are responsible for the rise in complaints. In May 2021, the agency created a new TSA PreCheck webform that saw complaints increase around 79% in the following four months. That August, the agency deployed messaging enhancements that, in combination with the new online form, saw complaints grow by 62% in the subsequent four months. (Switching to Salesforce for the TSA Contact Center at the end of 2020 also meant that the airport field in the data started to populate). 
 
 
-### Caveat: Ambiguous subcategories
+### Caveat: Ambiguous Subcategories
 
 Due to how the TSA formats its PDFs, subcategories are sometimes rendered ambiguously.
 
@@ -67,7 +69,7 @@ Subcategories impacted by ambiguous values are marked with an asterisk. For exam
 
 **By subcategory:** Records having a subcategory of `Expedited Passenger Screening Program` are cleaned to render simply `*`. This is because the subcategory is simply a repetition of the category with no further detail provided.
 
-## Data cleaning
+## Data Cleaning
 
 In the CSV files in `output/03-standardized`, the fields `clean_cat_status` and `clean_subcat_status` track how data is cleaned/standardized, based on assumptions about how the data was likely truncated in the TSA's PDF complaint report outputs. There are four possible values:
 
@@ -78,7 +80,7 @@ In the CSV files in `output/03-standardized`, the fields `clean_cat_status` and 
 | `ambiguous` | Two or more truncatations possible | Original category retained |
 | `missing` | No corresponding value in the Data Liberation Project's [lookup tables](lookups/) | Category left blank |
 
-### Imputation criteria
+### Imputation Criteria
 
 For imputed categories and subcategories, we have reasonable certainty of what was truncated. For example:
 
@@ -88,7 +90,7 @@ For imputed categories and subcategories, we have reasonable certainty of what w
 
 > Additional Information Required/Insufficient Information
 
-### Trimmed attributes
+### Trimmed Attributes
 
 Many TSA complaint subcategories repeat the category within the subcategory. The standardization process trims out these repeated categories. For example, the following record:
 
@@ -121,7 +123,7 @@ The repository's pipeline consists of the following scripts:
     - In instances where the same month's data is available in multiple PDF reports, we use the counts from the most recent report. A given entry's count rarely changes over time; when it does, it's typically by small amounts.
 - [scripts/03-standardize.py](scripts/03-standardize.py): Standardizes the category and subcategory labels, since the reports' PDF layouts often trim the full description, and saves the results to [output/03-standardized/](output/03-standardized/). The script also trims redundant category prefixes from subcategory descriptions. See the [Data guidance](#data-guidance) section above for interpreting the results.
 
-## Repository structure
+## Repository Structure
 
 ```
 .
@@ -139,8 +141,8 @@ The repository's pipeline consists of the following scripts:
 │   │   ├── report-2019-02-fiscal-year.csv
 │   │   ├── report-2019-02-month.csv
 │   │   ├── …
-│   │   ├── report-2023-10-fiscal-year.csv
-│   │   └── report-2023-10-month.csv
+│   │   ├── report-2024-10-fiscal-year.csv
+│   │   └── report-2024-10-month.csv
 │   ├── 02-combined
 │   │   ├── complaints-by-airport-raw.csv
 │   │   ├── complaints-all-by-month.csv
@@ -155,7 +157,7 @@ The repository's pipeline consists of the following scripts:
 ├── pdfs
 │   ├── tsa-contact-center-traveler-complaints-report-2019-02.pdf
 │   ├── …
-│   └── tsa-contact-center-traveler-complaints-report-2023-10.pdf
+│   └── tsa-contact-center-traveler-complaints-report-2024-10.pdf
 ├── requirements.in
 ├── requirements.txt
 └── scripts
@@ -167,7 +169,7 @@ The repository's pipeline consists of the following scripts:
 
 ## Credits
 
-This data pipeline has been developed by Jake Zucker, Rob Reid, Emily Keller-O'Donnell, Asako Mikami, and Jeremy Singer-Vine, collaborating through the [Data Liberation Project](https://www.data-liberation-project.org/).
+This data pipeline has been developed by Jake Zucker, Rob Reid, Emily Keller-O'Donnell, Asako Mikami, Kat de Jesus Chua, and Jeremy Singer-Vine, collaborating through the [Data Liberation Project](https://www.data-liberation-project.org/).
 
 ## Licensing
 
