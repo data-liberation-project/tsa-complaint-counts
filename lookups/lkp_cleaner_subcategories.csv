@@ -471,4 +471,8 @@ Request for Assistance,Wounded Warrior (MSIJSOC),Request for Assistance,Wounded 
 Request for Assistance,Request for Assistance - Wounded Warrior (MSIJSOC),Request for Assistance,Wounded Warrior (MSIJSOC),original,original,TRUE
 CLEAR,CLEAR - Registered Traveler,CLEAR,Registered Traveler,original,original,TRUE
 CLEAR,CLEAR - TSA PreCheck Application Program,CLEAR,TSA PreCheck Application Program,original,original,TRUE
-CLEAR,CLEAR - TSA PreCheck Application Prog,CLEAR,TSA PreCheck Application Program,original,imputed,TRUE
+CLEAR,CLEAR - TSA PreCheck Application Prog,CLEAR,TSA PreCheck Application Program,original,imputed,TRUE 
+Civil Rights,Civil Rights - Sex,Civil Rights,Sex/Gender/Gender Identity- Not Transgender,original,imputed,TRUE
+Civil Rights,Civil Rights - Other,Civil Rights,Not Specified,original,imputed,TRUE
+Screening,Screening - Opposite Sex,Screening,Opposite Gender, original, imputed,TRUE
+Civil Rights,Civil Rights - Sexual Orientation,Civil Rights,Sexual Orientation,original,imputed,TRUE
